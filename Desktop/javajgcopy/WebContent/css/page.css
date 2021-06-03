@@ -1,0 +1,35 @@
+.reg1 h4{
+	height: 45px;
+	border-bottom: 1px solid green;
+	background-color: green;
+	line-height: 45px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.wen{
+	font-size: 16px;
+}
+
+.regform1{
+	width: 800px;
+	margin: 50px auto 0;
+}
+
+.reg1{
+	height: 1200px;
+	border: 1px solid green;
+	margin-top: 20px;
+}
+
+td{
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	border: 1px  solid green;
+	border-collapse: collapse;
+	border-spacing: 0;
+}

@@ -1,0 +1,25 @@
+.yisheng{
+	overflow: hidden;
+	height: 472px;
+	border: 2px solid green;
+}
+
+.yisheng ul{
+	width: 720px;
+}
+
+.yisheng ul li{
+	float: left;
+	width: 144px;
+	height: 157px;
+	border: 1px solid green;
+	text-align: center;
+}
+
+.yisheng ul li div{
+	display: inline-block;
+	width: 80px;
+	height: 100px;
+	background-color: #666666;
+	margin-top: 12px;
+}

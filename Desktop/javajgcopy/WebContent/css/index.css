@@ -1,0 +1,52 @@
+.main{
+	width: 980px;
+	height: 472px;
+	margin-left: 220px;
+	margin-top: 10px;
+}
+
+.focus{
+	float: left;
+	width: 720px;
+	height: 472px;
+}
+
+.newflash{
+	float: right;
+	width: 250px;
+	height: 472px;
+	background-color: #008000;
+}
+
+.news{
+	height: 472px;
+	background-color: white
+}
+
+.newshd{
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	border-bottom: 1px solid green;
+}
+
+.newshd h5{
+	float: left;
+	font-size: 16px;
+}
+
+.newsbd{
+	padding: 5px 15px 0;
+}
+
+.newsbd ul li{
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}

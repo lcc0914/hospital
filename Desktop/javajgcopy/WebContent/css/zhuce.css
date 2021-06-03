@@ -1,0 +1,100 @@
+.W{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	height: 80px;
+	border-bottom: 2px solid green;
+}
+
+.logo{
+	padding-top: 20px;
+}
+
+.reg{
+	height: 520px;
+	border: 1px solid green;
+	margin-top: 20px;
+}
+
+.reg h3{
+	height: 45px;
+	border-bottom: 1px solid green;
+	background-color: green;
+	line-height: 45px;
+	padding: 0 10px;
+	color: white;
+	font-size: 18px;
+}
+
+.login{
+	float: right;
+	font-size: 14px;
+}
+
+.regform{
+	width: 600px;
+	margin: 50px auto 0;
+}
+
+.regform ul li{
+	margin-bottom: 20px;
+}
+
+.regform ul li label{
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.regform ul li input{
+	width: 242px;
+	height: 37px;
+	border: 1px solid green;
+}
+
+.regform ul li select {
+	appearance:none;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+	width: 242px;
+	height: 37px;
+	font-size:14px;
+	padding-right: 14px;
+	border: 1px solid green;
+}
+
+.error{
+	color: red;
+}
+
+.erroricon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url(../images/error.jpg) no-repeat;
+}
+
+.success{
+	color: green;
+}
+
+.successicon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url(../images/right.jpg) no-repeat;
+}
+
+.btn{
+	width: 200px;
+	height: 35px;
+	background-color: green;
+	font-size: 14px;
+	color: white;
+	margin: 30px 0 0 90px;
+}

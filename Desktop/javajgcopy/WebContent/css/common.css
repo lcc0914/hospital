@@ -1,0 +1,165 @@
+.W{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.shortcut{
+	height: 40px;
+	line-height: 40px;
+	background-color: #f1f1f1;
+}
+
+.shortcut ul li{
+	float: left;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.style_red{
+	color: green;
+}
+
+.header{
+	position: relative;
+	height: 105px;
+	background-color: white;
+}
+
+.logo{
+	position: absolute;
+	top: 25px;
+	width:300px;
+	height: 40px;
+	background-color: white;
+}
+
+.logo a{
+	display: block;
+	width: 300px;
+	height: 40px;
+	background: url(../images/logo_03.png) no-repeat;
+	font-size: 0;
+}
+
+.search{
+	position: absolute;
+	left: 400px;
+	top: 25px;
+	width: 400px;
+	height: 40px;
+	border: 2px solid green;
+}
+
+.sou{
+	float: left;
+	width: 346px;
+	height: 36px;
+	-webkit-appearance: button;
+	padding-left: 10px;
+}
+
+.button{
+	float: left;
+	width: 50px;
+	height: 36px;
+	background-color: green;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.nav{
+	height: 45px;
+	border-bottom: 2px solid green;
+}
+
+.nav .dropdown{
+	float: left;
+	width: 210px;
+	height: 45px;
+	background-color: green;
+}
+
+.nav .navitems{
+	float: left;
+}
+
+.dropdown .dt{
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+	font-size: 16px;
+}
+
+.dropdown .dd{
+	width: 210px;
+	height: 482px;
+	background-color: green;
+}
+
+.dropdown .dd ul li{
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 2px;
+	padding-left: 10px;
+}
+
+.dropdown .dd ul li:hover{
+	background-color: white;
+}
+
+.dropdown .dd ul li::after{
+	position: absolute;
+	right: 10px;
+	color: white;
+	font-family: 'icomoon';
+	content: '>';
+	font-size: 14px;
+}
+
+.dropdown .dd ul li a{
+	font-size: 14px;
+	color: white;
+}
+
+.dropdown .dd ul li:hover a{
+	color: green;
+}
+
+.navitems ul li{
+	float: left;
+}
+
+.navitems ul li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	padding: 0 25px;
+}
+
+.none {
+    width: 731px;
+    height: 62px;
+    margin-left: 108px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid green;
+    position: absolute;
+    left: 100px;
+    top: -1px;
+    z-index: 3;
+    display: none;
+}
+
+.dropdown .dd ul li:hover .none{
+            display: block;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.javaweb.dao.impl.GuahaoDao">
+	<select id="qureyGuahao" parameterType="Guahao" resultType="guahao">
+		select keshi,name,date,time from t_guahao where keshi=#{keshi} and name=#{name} and date=#{date} and time=#{time}
+	</select>
+	<select id="queyGuahaos" parameterType="String" resultType="guahao">
+		select phonenumber,keshi,name,date,time from t_guahao where phonenumber = #{phonenumber}
+	</select>
+	<insert id="saveGuahao" parameterType="Guahao">
+		insert into t_guahao(phonenumber,keshi,name,date,time)values(#{phonenumber},#{keshi},#{name},#{date},#{time})
+	</insert>
+	<delete id="deleteGuahao" parameterType="Guahao">
+		delete from t_guahao where keshi=#{keshi} and name=#{name} and date=#{date} and time=#{time}
+	</delete>
+</mapper>

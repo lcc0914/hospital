@@ -1,0 +1,23 @@
+.tu{
+	float: left;
+	width: 200px;
+	height: 250px;
+	margin: 50px auto 0;
+	margin-left: 80px;
+}
+
+.tu img{
+	width: 100%;
+	transform:scale(1);
+}
+
+.neirong{
+	float: right;
+	width: 200px;
+	height: 250px;
+	margin: 50px auto 0;
+	margin-right: 80px;
+	font-size: 24px;
+	color: green;
+	
+}
